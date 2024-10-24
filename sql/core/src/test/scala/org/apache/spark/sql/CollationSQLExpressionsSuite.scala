@@ -3260,7 +3260,7 @@ class CollationSQLExpressionsSuite
     }
   }
 
-  test("SPARK-50060: set operators with conflicting collations") {
+it  test("SPARK-50060: set operators with conflicting collations") {
     val setOperators = Seq[(String, Int, Int)](
       ("UNION", 64, 45),
       ("INTERSECT", 68, 49),
