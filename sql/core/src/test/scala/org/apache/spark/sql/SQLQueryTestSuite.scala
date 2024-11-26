@@ -37,6 +37,8 @@ import org.apache.spark.tags.ExtendedSQLTest
 import org.apache.spark.util.ArrayImplicits._
 import org.apache.spark.util.Utils
 
+// Comment.
+
 // scalastyle:off line.size.limit
 /**
  * End-to-end test cases for SQL queries.
